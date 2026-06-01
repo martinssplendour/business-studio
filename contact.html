@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact | Business Studio</title>
+    <meta name="description" content="Request data science, machine learning, reporting, software, or automation support from Business Studio.">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Business Studio home">
+        <span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span>
+        <span>Business Studio</span>
+      </a>
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="how-it-works.html">How It Works</a>
+        <a href="about.html">About</a>
+        <a class="active" href="contact.html">Contact</a>
+      </nav>
+      <a class="button button-small" href="contact.html">Request a Service</a>
+    </header>
+
+    <main>
+      <section class="section-shell contact-section page-contact">
+        <div class="contact-copy">
+          <p class="eyebrow">Request a service</p>
+          <h1>Tell us what you need</h1>
+          <p>
+            Share the data problem, prediction, report, model, tool, task, or workflow you want to improve. We will review your
+            request and get back to you by email.
+          </p>
+        </div>
+
+        <form class="request-form" id="request-form" action="https://formspree.io/f/xkoedgyd" method="POST">
+          <input type="hidden" name="_subject" value="New Business Studio service request">
+          <div class="field-grid">
+            <label>
+              Full name
+              <input name="name" type="text" required>
+            </label>
+            <label>
+              Business name
+              <input name="business" type="text" required>
+            </label>
+          </div>
+
+          <div class="field-grid">
+            <label>
+              Email address
+              <input name="email" type="email" required>
+            </label>
+            <label>
+              Phone number <span>optional</span>
+              <input name="phone" type="tel">
+            </label>
+          </div>
+
+          <label>
+            Type of service needed
+            <select name="service" required>
+              <option value="">Select a service</option>
+              <option>Data science or predictive analysis</option>
+              <option>Churn analysis or customer insights</option>
+              <option>Machine learning model</option>
+              <option>Reports or dashboards</option>
+              <option>Custom software or internal tool</option>
+              <option>Business process automation</option>
+              <option>Training or consultation</option>
+            </select>
+          </label>
+
+          <label>
+            Brief description of what you need
+            <textarea name="description" rows="4" required></textarea>
+          </label>
+
+          <label>
+            What problem are you trying to solve?
+            <textarea name="problem" rows="4" required></textarea>
+          </label>
+
+          <label>
+            How soon do you need help?
+            <select name="timeline" required>
+              <option value="">Select a timeline</option>
+              <option>This week</option>
+              <option>This month</option>
+              <option>In the next 2-3 months</option>
+              <option>Just exploring</option>
+            </select>
+          </label>
+
+          <button class="button" type="submit">Send Request</button>
+          <p class="form-status" id="form-status" role="status"></p>
+        </form>
+
+        <div class="trust-note">
+          <h3>Data confidentiality</h3>
+          <ul>
+            <li>Your data is handled confidentially.</li>
+            <li>We only use the data needed for the project.</li>
+            <li>We can work with anonymized data where possible.</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <a class="brand" href="index.html" aria-label="Business Studio home">
+          <span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span>
+          <span>Business Studio</span>
+        </a>
+        <p>Data science, machine learning, software, and automation support for growing businesses.</p>
+      </div>
+      <nav aria-label="Footer navigation">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="how-it-works.html">How It Works</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms of Service</a>
+      </nav>
+      <p class="copyright">&copy; 2026 Business Studio. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
