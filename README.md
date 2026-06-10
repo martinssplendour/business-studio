@@ -1,8 +1,8 @@
-# Business Studio Website
+# ombriQ Website
 
-Static website for Business Studio.
+Static website for ombriQ.
 
-Business Studio provides data science, predictive analysis, churn analysis, reporting, machine learning models, custom software, and automation support for growing businesses.
+ombriQ provides data science, predictive analysis, churn analysis, reporting, machine learning models, custom software, and automation support for growing businesses.
 
 ## Pages
 
